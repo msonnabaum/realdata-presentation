@@ -1,0 +1,103 @@
+/* Overrides */
+@font-face {
+  font-family: Lato;
+  src: url("../lib/font/lato/Lato-Reg-webfont.eot");
+  src: url("../lib/font/lato/Lato-Reg-webfont.eot?#iefix") format("embedded-opentype"), url("../lib/font/lato/Lato-Reg-webfont.woff") format("woff"), url("../lib/font/lato/Lato-Reg-webfont.ttf") format("truetype"), url("../lib/font/lato/Lato-Reg-webfont.svg#Lato") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  background: #153956;
+  background: -moz-radial-gradient(center, ellipse cover, #65717b 0%, #153956 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #65717b), color-stop(100%, #153956));
+  background: -webkit-radial-gradient(center, ellipse cover, #65717b 0%, #153956 100%); }
+
+.state-background {
+  -webkit-transition: background 400ms ease;
+  -moz-transition: background 400ms ease;
+  -ms-transition: background 400ms ease;
+  -o-transition: background 400ms ease;
+  transition: background 400ms ease; }
+
+blockquote p {
+  display: inline;
+  margin: 0; }
+
+.reveal section img {
+  margin: 0;
+  background: "#000";
+  border: none; }
+.reveal h1 {
+  font-size: 136px;
+  margin-bottom: 40px; }
+.reveal h2 {
+  margin-bottom: 30px; }
+.reveal a:not(.image) {
+  color: #0099ff; }
+  .reveal a:not(.image):hover {
+    color: #71e9f4;
+    color: #66c2ff;
+    background: rgba(0, 61, 102, 0.4); }
+.reveal p {
+  margin-bottom: 30px; }
+.reveal .slides section {
+  line-height: 1.6em; }
+
+.reveal .slides {
+  height: 600px; }
+  .reveal .slides section .left {
+    text-align: left;
+    display: block; }
+
+.reveal pre {
+  width: 100%; }
+
+.internet-benchmarks .state-background {
+  background: url("../images/internet_benchmarks.png") center center no-repeat; }
+
+.screenplay .state-background {
+  background: white; }
+.screenplay .reveal .slides section {
+  font-size: 83%;
+  color: black;
+  font-family: Courier; }
+.screenplay .reveal p {
+  margin-bottom: 5px; }
+.screenplay .reveal blockquote {
+  font-style: normal;
+  box-shadow: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 40px;
+  width: 75%; }
+  .screenplay .reveal blockquote p {
+    display: block; }
+.screenplay .reveal blockquote::before {
+  content: ""; }
+.screenplay .reveal blockquote::after {
+  content: ""; }
+
+.big-image .reveal h1 {
+  margin-bottom: 10px; }
+.big-image .reveal .slides {
+  margin-top: -400px;
+  max-width: 1395px; }
+.big-image img {
+  width: 100%;
+  height: 100%; }
+
+.title-slide .state-background {
+  background: black; }
+.title-slide .reveal .slides {
+  padding: 0; }
+.title-slide h1 {
+  text-shadow: none;
+  line-height: 200px;
+  font-size: 163.2px; }
+
+.ggplot_compare img {
+  width: 45%; }
+
+.slides .arrow {
+  color: "#F00";
+  font-size: 200%; }
